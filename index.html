@@ -33,16 +33,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Saldi</a>
+                            <a class="nav-link" href="#sales">Saldi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Welcome Summer</a>
+                            <a class="nav-link" href="#welcomeSummer">Welcome Summer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Last Minute</a>
+                            <a class="nav-link" href="#lastMinute">Last Minute</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Recensioni</a>
+                            <a class="nav-link" href="#reviews">Recensioni</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -76,7 +76,7 @@
 
         <!-- CARDS SALDI -->
 
-        <div class="container">
+        <div class="container" id="sales">
             <div class="accordion accordion-flush" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -139,7 +139,7 @@
 
         <!-- CARDS WELCOME SUMMER -->
 
-        <div class="container">
+        <div class="container" id="welcomeSummer">
             <div class="accordion accordion-flush" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -221,12 +221,12 @@
             </div>
         </div>
 
-        <br>  
+        <br>
         <br>
 
         <!-- OFFERTA DEL GIORNO -->
-        
-        <div class="container">
+
+        <div class="container" id="lastMinute">
             <h2 class="mb-3">Offerta del giorno</h2>
             <div class="d-flex">
                 <img src="assets/img/resort.jpg" alt="Resort Maldives" class="col-6 col-lg-8 rounded-3 w-50 h-50">
@@ -239,9 +239,81 @@
             </div>
         </div>
 
+        <br>
+        <br>
 
+        <!-- LAST MINUTE -->
 
+        <div class="container">
+            <h2>Last Minute</h2>
+            <div class="d-flex flex-wrap">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+                <img src="assets/img/resort.jpg" alt="Resort" class="col-6 rounded-4 mb-2">
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- RECENSIONI -->
+
+        <div class="container" id="reviews">
+            <h2 class="text-center">Dicono di noi</h2>
+            <div class="flex flex-column">
+                <div class="d-flex">
+                    <img src="assets/img/utente.jpg" alt="Utente" style="border-radius: 50%; width: 10%; height: 10%; border: 2px solid #0DCAF0;">
+                    <div class="ms-3">
+                        <h5>Username</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officiis exercitationem illum
+                            debitis. Molestias, unde a atque dolore omnis doloremque ipsam corporis accusantium quae
+                            praesentium sit dignissimos! Deleniti, omnis porro?</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img src="assets/img/utente2.jpg" alt="Utente" style="border-radius: 50%; width: 10%; height: 10%;  border: 2px solid #0DCAF0;">
+                    <div class="ms-3">
+                        <h5>Username</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officiis exercitationem illum
+                            debitis. Molestias, unde a atque dolore omnis doloremque ipsam corporis accusantium quae
+                            praesentium sit dignissimos! Deleniti, omnis porro?</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img src="assets/img/utente.jpg" alt="Utente" style="border-radius: 50%; width: 10%; height: 10%;  border: 2px solid #0DCAF0;">
+                    <div class="ms-3">
+                        <h5>Username</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officiis exercitationem illum
+                            debitis. Molestias, unde a atque dolore omnis doloremque ipsam corporis accusantium quae
+                            praesentium sit dignissimos! Deleniti, omnis porro?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <footer class="container-fluid bg-dark">
+        <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Titolo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
